@@ -25,8 +25,15 @@
 //   return <h1>salle sonorite euphorie la sacem de laurant pagny</h1>;
 // }
 
-import Gallery from "./Gallery";
+// import Gallery from "./Gallery";
+
+// export default function App() {
+//   return <Gallery />;
+// }
+
+import Gallery from "./Gallery.jsx";
+import { Profile } from "./Gallery.jsx";
 
 export default function App() {
-  return <Gallery />;
+  return <Profile />;
 }
