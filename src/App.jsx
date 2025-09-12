@@ -31,9 +31,22 @@
 //   return <Gallery />;
 // }
 
-import Gallery from "./Gallery.jsx";
-import { Profile } from "./Gallery.jsx";
+// import Gallery from "./Gallery.jsx";
+// import { Profile } from "./Gallery.jsx";
+
+// export default function App() {
+//   return <Profile />;
+// }
+import Gallery from './Gallery.js';
+import { Profile } from './Profile.js';
 
 export default function App() {
-  return <Profile />;
+  return (
+    <div>
+      <Profile />
+      <Gallery />
+    </div>
+  );
+}
+
 }
